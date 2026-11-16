@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /materials.html
+Disallow: /scripts.html
+Disallow: /presentation.html
+Disallow: /outreach.html
+Sitemap: https://novoline.site/sitemap.xml

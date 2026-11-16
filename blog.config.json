@@ -1,0 +1,37 @@
+{
+  "siteName": "Новолайн",
+  "siteUrl": "https://novoline.site",
+  "lang": "ru",
+  "repo": "murzzsite/balkon-pro",
+  "ref": "Z4UC4HNQJ2",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи от Новолайн",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Новолайн",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "e3a2d3924746b4f9958365a49e30ab1f",
+  "previewSecret": "7c0c82bd547223c5",
+  "theme": {
+    "accent": "var(--accent)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--muted)",
+    "accent-soft": "color-mix(in srgb, var(--accent) 10%, #ffffff)"
+  }
+}

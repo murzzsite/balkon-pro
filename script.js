@@ -218,6 +218,17 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/Z4UC4HNQJ2'
     if (!wasOpen) { c.classList.add('is-open'); $('.card__head', c).setAttribute('aria-expanded', 'true'); }
   }));
 
+  /* ===== cookie notice ===== */
+  let seen = null;
+  try { seen = localStorage.getItem('nl_cookie'); } catch (_) {}
+  if (!seen) {
+    const bar = document.createElement('div');
+    bar.className = 'cookie'; bar.setAttribute('role', 'dialog'); bar.setAttribute('aria-label', 'Использование cookie');
+    bar.innerHTML = '<p>Сайт использует cookie, чтобы работать корректно. Подробнее в <a href="privacy.html">политике конфиденциальности</a>.</p><button type="button">Понятно</button>';
+    document.body.appendChild(bar);
+    $('button', bar).addEventListener('click', () => { try { localStorage.setItem('nl_cookie', '1'); } catch (_) {} bar.remove(); });
+  }
+
   /* ===== lead form -> relay -> Telegram ===== */
   const form = $('#leadForm');
   form?.addEventListener('submit', async e => {
@@ -229,6 +240,12 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/Z4UC4HNQJ2'
     form.classList.remove('is-error');
     $$('input', form).forEach(i => i.classList.remove('bad'));
     const phoneDigits = (payload.phone || '').replace(/\D/g, '');
+    if (!payload.consent) {
+      form.classList.add('is-error');
+      label.textContent = 'Нужно согласие на обработку данных';
+      setTimeout(() => { label.textContent = orig; form.classList.remove('is-error'); }, 2600);
+      return;
+    }
     if (!payload.name || phoneDigits.length < 11) {
       form.classList.add('is-error');
       if (!payload.name) $('#fName').classList.add('bad');
