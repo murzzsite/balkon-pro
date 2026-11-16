@@ -4,4 +4,10 @@ Disallow: /materials.html
 Disallow: /scripts.html
 Disallow: /presentation.html
 Disallow: /outreach.html
+Disallow: /raspakovka.html
+Disallow: /recommendations.html
+Disallow: /cards.html
+Disallow: /reviews.html
+Disallow: /channels.html
+Disallow: /report/
 Sitemap: https://novoline.site/sitemap.xml
