@@ -9,25 +9,20 @@
       "description": "Чем балкон отличается от лоджии, какое остекление выбрать: холодное или тёплое, и как это влияет на цену. Ориентиры по прайсу Новолайн и вопросы к замеру.",
       "reading_time": "10 мин чтения",
       "preview_url": "https://novoline.site/blog/preview/fe6d2bbdf180/balkon-ili-lodzhiya-kak-vybrat-ostekleniye/"
-    },
+    }
+  ],
+  "scheduled": [
     {
       "slug": "otdelka-balkona-kabinet-zona-otdykha-kladovaya",
-      "path": "articles/otdelka-balkona-kabinet-zona-otdykha-kladovaya.md",
       "title": "Отделка балкона: как продумать кабинет, зону отдыха или кладовую до начала работ",
-      "description": "Как продумать отделку балкона под кабинет, зону отдыха или кладовую: вопросы до начала работ, ошибки и ориентиры по прайсу Новолайн. Отделка от 150 000 ₽.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://novoline.site/blog/preview/1c405d07a8f9/otdelka-balkona-kabinet-zona-otdykha-kladovaya/"
+      "date": "2026-11-23"
     },
     {
       "slug": "podgotovka-k-zameru-balkona-chek-list",
-      "path": "articles/podgotovka-k-zameru-balkona-chek-list.md",
       "title": "Замер балкона: как подготовиться, что спросить мастера и что проверить перед договором",
-      "description": "Как подготовиться к замеру балкона: чек-лист, вопросы мастеру и что проверить в договоре. Замер в Новолайн бесплатный, цену считаем по размерам вашего проекта.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://novoline.site/blog/preview/de60b42ca9b0/podgotovka-k-zameru-balkona-chek-list/"
+      "date": "2026-11-30"
     }
   ],
-  "scheduled": [],
   "published": [
     {
       "slug": "stoimost-ostekleniya-balkona-saratov",
