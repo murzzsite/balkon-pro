@@ -1,17 +1,13 @@
 {
   "site": "https://novoline.site",
   "updated": "2026-11-18",
-  "awaiting": [
+  "awaiting": [],
+  "scheduled": [
     {
       "slug": "balkon-ili-lodzhiya-kak-vybrat-ostekleniye",
-      "path": "articles/balkon-ili-lodzhiya-kak-vybrat-ostekleniye.md",
       "title": "Остекление балкона или лоджии: чем они отличаются и как выбрать конструкцию",
-      "description": "Чем балкон отличается от лоджии, какое остекление выбрать: холодное или тёплое, и как это влияет на цену. Ориентиры по прайсу Новолайн и вопросы к замеру.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://novoline.site/blog/preview/fe6d2bbdf180/balkon-ili-lodzhiya-kak-vybrat-ostekleniye/"
-    }
-  ],
-  "scheduled": [
+      "date": "2026-12-07"
+    },
     {
       "slug": "otdelka-balkona-kabinet-zona-otdykha-kladovaya",
       "title": "Отделка балкона: как продумать кабинет, зону отдыха или кладовую до начала работ",
