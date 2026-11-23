@@ -1,6 +1,6 @@
 {
   "site": "https://novoline.site",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "awaiting": [],
   "scheduled": [
     {
@@ -9,17 +9,18 @@
       "date": "2026-12-07"
     },
     {
-      "slug": "otdelka-balkona-kabinet-zona-otdykha-kladovaya",
-      "title": "Отделка балкона: как продумать кабинет, зону отдыха или кладовую до начала работ",
-      "date": "2026-11-23"
-    },
-    {
       "slug": "podgotovka-k-zameru-balkona-chek-list",
       "title": "Замер балкона: как подготовиться, что спросить мастера и что проверить перед договором",
       "date": "2026-11-30"
     }
   ],
   "published": [
+    {
+      "slug": "otdelka-balkona-kabinet-zona-otdykha-kladovaya",
+      "title": "Отделка балкона: как продумать кабинет, зону отдыха или кладовую до начала работ",
+      "url": "https://novoline.site/blog/otdelka-balkona-kabinet-zona-otdykha-kladovaya/",
+      "date": "2026-11-23"
+    },
     {
       "slug": "stoimost-ostekleniya-balkona-saratov",
       "title": "Сколько стоит остекление балкона в Саратове и Энгельсе и из чего складывается цена",
